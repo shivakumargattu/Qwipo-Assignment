@@ -1,0 +1,170 @@
+:root {
+  --pad: 14px;
+  --radius: 12px;
+  --border: #ddd;
+  --gap: 16px;
+}
+
+body {
+  font-family: system-ui, Arial, sans-serif;
+  margin: 0;
+  background: #fafafa;
+  color: #222;
+}
+
+.app {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--pad);
+  margin: 16px 0;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+.row {
+  display: flex;
+  gap: var(--gap);
+  flex-wrap: wrap;
+  margin-bottom: var(--gap);
+}
+
+.row > * {
+  flex: 1;
+  min-width: 260px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  transition: 0.2s ease;
+}
+
+button.primary {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+  cursor: pointer;
+}
+
+button.primary:hover {
+  background: #333;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  font-size: 15px;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: #efefef;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  button,
+  input,
+  select {
+    font-size: 16px;
+  }
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabs {
+  display: flex;
+  gap: 20px;
+}
+
+.tabs a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #555;
+  padding-bottom: 6px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.tabs a:hover {
+  color: #000;
+}
+
+.tabs a.active {
+  color: #000;
+  font-weight: 600;
+  border-bottom: 2px solid #000;
+}
+
+button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+button.primary {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}
+
+button.primary:hover {
+  background: #333;
+}
+
+button.secondary {
+  background: #f0f4ff;   /* light blue background */
+  color: #1a4ed8;        /* blue text */
+  border-color: #a4bbfd;
+}
+
+button.secondary:hover {
+  background: #3788f1;   /* deeper blue on hover */
+    color: white;
+}

@@ -31,6 +31,17 @@ It provides functionality to **create, read, update, and delete (CRUD)** custome
 
 ---
 
-## 📂 Project Structure
+## Base URL: [http://localhost:4000](https://qwipo-assignment-1-ad8u.onrender.com)
+
+
+| Method | Endpoint             | Description                 |
+| ------ | -------------------- | --------------------------- |
+| GET    | `/api/customers`     | Get all customers           |
+| GET    | `/api/customers/:id` | Get a single customer by ID |
+| POST   | `/api/customers`     | Create a new customer       |
+| PUT    | `/api/customers/:id` | Update a customer by ID     |
+| DELETE | `/api/customers/:id` | Delete a customer by ID     |
+
+
 
 

@@ -31,7 +31,7 @@ It provides functionality to **create, read, update, and delete (CRUD)** custome
 
 ---
 
-## Base URL: [http://localhost:4000](https://qwipo-assignment-1-ad8u.onrender.com)
+## Base URL: [https://qwipo-assignment-1-ad8u.onrender.com]
 
 
 | Method | Endpoint             | Description                 |
@@ -41,6 +41,7 @@ It provides functionality to **create, read, update, and delete (CRUD)** custome
 | POST   | `/api/customers`     | Create a new customer       |
 | PUT    | `/api/customers/:id` | Update a customer by ID     |
 | DELETE | `/api/customers/:id` | Delete a customer by ID     |
+
 
 
 

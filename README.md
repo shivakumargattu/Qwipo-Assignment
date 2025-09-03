@@ -5,6 +5,9 @@ It provides functionality to **create, read, update, and delete (CRUD)** custome
 
 ---
 
+## Live Demo Link:https://qwipo-assignment-8wai.vercel.app/
+
+
 ## 🚀 Features
 - ➕ Add new customers  
 - 📋 View all customers in a list/table  
@@ -52,6 +55,7 @@ Customer List View
 <img width="1912" height="941" alt="Customer List" src="https://github.com/user-attachments/assets/c89e9d46-8bb8-4551-bdf6-8fc668979440" />
 Customer Detail Page
 <img width="1737" height="962" alt="Customer Detail" src="https://github.com/user-attachments/assets/6d0abc38-29e3-457a-8b0f-7c0792227ff0" />
+
 
 
 
